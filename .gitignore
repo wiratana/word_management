@@ -1,0 +1,10 @@
+/coverage
+/node_modules
+/jsconfig.json
+/npm-debug.log
+/.vscode
+/.DS_Store
+/.eslintcache
+/bin
+
+.env
