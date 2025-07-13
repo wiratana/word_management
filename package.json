@@ -12,7 +12,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node build.js",
+    "dev": "node build.js --dev",
+    "start": "esbuild src/index.js --bundle --outfile=bin/app.js --watch"
   },
   "keywords": [],
   "author": "",
